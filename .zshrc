@@ -11,6 +11,8 @@ setopt AUTO_CD
 
 #bindkey "^[[A" up-line-or-search
 #bindkey "^[[B" down-line-or-search
+bindkey ';5C' forward-word
+bindkey ';5D' backward-word
 
 
 ## Global aliases
